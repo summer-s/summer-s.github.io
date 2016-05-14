@@ -137,7 +137,7 @@ hr{
 .rating{
     width: 50%;
     min-width: 170px;
-    font-size: .9em;
+    font-size: 1.3em;
     font-style: italic;
     float: left;
     display: inline-block;    
@@ -177,7 +177,7 @@ hr{
 }
 
 #footer p{
-    font-size: 1.1em;
+    font-size: 1.5em;
     display: inline-block;
     line-height: normal;
     position: relative;
@@ -195,11 +195,11 @@ hr{
 @media (min-width: 700px) {
   
     h1{
-        font-size: 12em;
+        font-size: 10em;
     }
     
     h2{
-        font-size: 4.2em;
+        font-size: 3.7em;
     }
 
     h3{
@@ -215,7 +215,7 @@ hr{
     }
     
     p{
-        font-size: 1.8em;
+        font-size: 1.7em;
     }
     
     .review-text p{
