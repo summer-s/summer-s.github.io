@@ -145,7 +145,7 @@ hr{
 
 .rating{
     width: 50%;
-    min-width: 170px;
+    min-width: 130px;
     float: left;
     display: inline-block;
     text-transform: uppercase;
