@@ -137,7 +137,6 @@ hr{
 .rating{
     width: 50%;
     min-width: 170px;
-    font-size: .9em;
     font-style: italic;
     float: left;
     display: inline-block;    
