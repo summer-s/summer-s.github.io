@@ -232,6 +232,9 @@ hr{
         font-size: 1.7em;
     }
     
+    #intro{
+        font-size: 1.6em;
+    }
     
     .review-para{
         font-size: 1.3em;
@@ -284,6 +287,10 @@ hr{
     h5{
         font-size: 2em;
     }
+    
+    #intro{
+        font-size: 1.8em;
+    }
             
     .review-text p{
         max-width: 750px;
@@ -316,6 +323,10 @@ hr{
     
     #header{
         padding-top: 10%;
+    }
+    
+    #intro{
+        font-size: 2em;
     }
     
     .review{
