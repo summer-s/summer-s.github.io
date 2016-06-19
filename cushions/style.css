@@ -95,7 +95,7 @@ hr{
     max-width: 700px;
     text-align: center;
     margin-top: 30%;
-    font-size: 1.4em;
+    font-size: 1.4em
 }
 
 .center{
@@ -131,9 +131,12 @@ hr{
 }
 
 .review-text p{
-    font-size: 1.2em;
     margin-top: 20px;
     max-width: 750px;
+}
+
+.review-para{
+    font-size: 1.2em;
 }
 
 .rating-container{
@@ -146,8 +149,9 @@ hr{
     float: left;
     display: inline-block;
     text-transform: uppercase;
-    font-weight: 600;
-    font-size: .8em;
+    font-weight: 900;
+    font-size: 1em;
+    
 }
 
 .rating strong {
@@ -155,8 +159,8 @@ hr{
 }
 
 .full{
-    height: 17px;
-    width: 17px;
+    height: 1em;
+    width: 1em;
     border-radius: 50%;
     border: 1px solid;
     border-color: #4c4545;
@@ -167,8 +171,8 @@ hr{
 }
 
 .empty{
-    height: 17px;
-    width: 17px;
+    height: 1em;
+    width: 1em;
     border-radius: 50%;
     border: 1px solid;
     border-color: #4c4545;
@@ -228,8 +232,14 @@ hr{
         font-size: 1.7em;
     }
     
-    .review-text p{
-        font-size: 1.4em;
+    
+    .review-para{
+        font-size: 1.3em;
+        
+    }
+    
+    .rating{
+        font-size: 1.1em;
     }
     
 }
@@ -274,10 +284,17 @@ hr{
     h5{
         font-size: 2em;
     }
-    
+            
     .review-text p{
-        font-size: 1.5em;
         max-width: 750px;
+    }
+    
+    .review-para{
+        font-size: 1.3em;
+    }
+    
+    .rating{
+        font-size:  1.1em;
     }
 
 }
