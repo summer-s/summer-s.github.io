@@ -227,10 +227,6 @@ hr{
         font-size: 1.7em;
     }
     
-    p{
-        font-size: 1.5em;
-    }
-    
     .review-text p{
         font-size: 1.4em;
     }
@@ -278,10 +274,6 @@ hr{
         font-size: 2em;
     }
     
-    p{
-        font-size: 1.7em;
-    }
-        
     .review-text p{
         font-size: 1.5em;
         max-width: 750px;
