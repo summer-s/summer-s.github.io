@@ -220,9 +220,9 @@ p{
 @media (min-width: 700px) {
   
     h1{
-        font-size: 8em;
+        font-size: 7.5em;
         border: 3px solid;
-        border-radius: 100px;
+        border-radius: 110px;
         padding: 40px 60px;
     }
     
@@ -285,7 +285,7 @@ p{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        margin-top: 0%;
+        
     }
     
     h2{
