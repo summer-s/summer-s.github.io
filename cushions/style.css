@@ -22,7 +22,7 @@ h1, h2, h3{
     text-align: center;
 }
 
-/*old h1
+
 h1{
     font-weight: 900;
     font-size: 4em;
@@ -32,17 +32,6 @@ h1{
     padding: 10px 20px;
     display: inline-block;
   }
-*/ 
-
-h1{
-   font-weight: 900;
-    font-size: 4em;
-    line-height: 1.1;
-    border: 2px solid;
-    border-radius: 50px;
-    padding: 10px 20px;
-    
-}
 
 h2{
     font-weight: 400;
