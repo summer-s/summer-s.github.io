@@ -292,9 +292,10 @@ hr{
         background-image: url(images/header.jpg);
     }
     
-    #header{
+   /* #header{
         padding-top: 10%;
     }
+    */
     
     #header hr{
         height: 5px;
