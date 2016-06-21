@@ -71,15 +71,6 @@ p{
     line-height: 1.5em;
 }
 
-
-/*old header
-#header{
-    padding-top: 10%;
-    width: 100%;
-    text-align: center;
-}
-*/
-
 #header{
     width: 100%;
     text-align: center;
@@ -266,11 +257,6 @@ p{
         background-image: url(images/header.jpg);
     }
     
-   /* #header{
-        padding-top: 10%;
-    }
-    */
-    
     #header{
     width: 100%;
     text-align: center;
@@ -285,6 +271,7 @@ p{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
+        margin: 0;
         
     }
     
@@ -336,11 +323,6 @@ p{
         border-radius: 200px;
         padding: 70px 100px;
     }
-    
-   /* #header{
-        padding-top: 10%;
-    }
-    */
     
     #intro{
         font-size: 1.7em;
