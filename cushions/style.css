@@ -286,6 +286,7 @@ p{
         top: 50%;
         transform: translateY(-50%);
         display: inline-block;
+        margin-top: 0%;
     }
     
     h2{
