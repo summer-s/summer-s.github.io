@@ -270,7 +270,7 @@ p{
         padding: 40px 70px;
         position: relative;
         top: 50%;
-        /*transform: translateY(-50%);*/
+        transform: translateY(-50%);
         margin: 0;
         
     }
