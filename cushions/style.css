@@ -281,11 +281,11 @@ p{
         font-size: 9em;
         border: 3px solid;
         border-radius: 150px;
-        padding: 40px  70px;
+        padding: 40px 70px;
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        display: inline-block;
+        display: block;
         margin-top: 0%;
     }
     
