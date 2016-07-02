@@ -74,14 +74,13 @@ p{
 #header{
     width: 100%;
     text-align: center;
-    margin-top: 10%;
+    padding-top: 10%;
 }
 
 #intro{
     width: 80%;
     max-width: 700px;
     text-align: center;
-    margin-top: 20%;
     font-size: 1.2em
 }
 
@@ -172,7 +171,7 @@ p{
 #footer{
     clear: both;
     width: 100%;
-    border-top: 1px solid;
+    border-top: 1px solid ;
     margin-top: 15%;
     height: 50px;
     text-align: center;
@@ -234,11 +233,11 @@ p{
     }
     
     #intro{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     
     .review-para{
-        font-size: 1.3em;
+        font-size: 1.2em;
         
     }
     
@@ -258,9 +257,11 @@ p{
     }
     
     #header{
-    width: 100%;
-    text-align: center;
-    height: 100vh;
+        width: 100%;
+        text-align: center;
+        height: 100vh;
+        padding: 0;
+   
 }
 
     h1{
@@ -271,9 +272,9 @@ p{
         position: relative;
         top: 50%;
         transform: translateY(-50%);
-        margin: 0;
-        display: inline-block;
-    }
+        margin: 0 auto;
+        display: table;
+}
     
     h2{
         font-size: 4em;
@@ -292,7 +293,7 @@ p{
     }
     
     #intro{
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
             
     .review-text p{
@@ -325,7 +326,7 @@ p{
     }
     
     #intro{
-        font-size: 1.7em;
+        font-size: 1.5em;
     }
     
     .review{
@@ -333,7 +334,7 @@ p{
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 35%;
+        margin-top: 30%;
     }
     
     .review-photo{
@@ -341,9 +342,7 @@ p{
         margin-bottom: -25%;
     }   
     
-    #review-container{
-        margin-top: -10%;
-    }
+   
    
 
 }
