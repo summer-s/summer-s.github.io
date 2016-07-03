@@ -79,9 +79,10 @@ p{
 
 #intro{
     width: 80%;
-    max-width: 700px;
+    max-width: 600px;
     text-align: center;
-    font-size: 1.2em
+    font-size: 1.2em;
+    margin-top: 20%;
 }
 
 .center{
@@ -294,6 +295,7 @@ p{
     
     #intro{
         font-size: 1.4em;
+        margin-top: 0;
     }
             
     .review-text p{
