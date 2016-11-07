@@ -1,0 +1,277 @@
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: inline;
+	float:left;
+	margin: 1% 0 5% 10%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 72.5%;
+}
+.span_2_of_4 {
+	width: 45%;
+}
+.span_1_of_4 {
+	width: 17.5%;
+}
+
+/*  GO FULL WIDTH BELOW 900 PIXELS */
+@media only screen and (max-width: 900px) {
+	.col {  margin: 1% 0 15% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #1E1D1E;
+}
+
+body{
+    background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/rice-paper-2.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.container{
+    width: 90%;
+    margin: 5% auto;
+    overflow: hidden;
+   background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/squairy.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px gainsboro;
+}
+
+#header{
+    width: 70%;
+    margin-top: 1%;
+   
+}
+@media only screen and (max-width: 900px) {
+    #header{
+        width: 104%;
+    }
+}
+
+
+#content{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+@media only screen and (max-width: 900px) {
+    #content{
+        width: 70%;
+        margin-top: 15%;
+    }
+}
+
+.right{
+    float: right;
+    text-align: right;
+}
+
+
+h1{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding-right: 5%;
+    width: 75%;
+    max-width: 675px;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.0em;
+    border-right: 30px solid #f4de5f;
+}
+@media only screen and (max-width: 900px) {
+    h1{
+        font-size: 2.0em;
+        width: 75%;
+        border-right: 20px solid #f4de5f;
+    }
+}
+
+    
+h2{
+    font-family: Roboto Condensed;
+    font-size: 3.0em;
+    margin-bottom: 10%;
+    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+    h2{
+        font-size: 2.0em;
+    }
+}
+
+.color1{
+    border-bottom: 6px solid #85c44e;
+}
+
+.color2{
+    border-bottom: 6px solid #82a536;
+}
+
+.color3{
+    border-bottom: 6px solid #a2c44e;
+}
+
+.color4{
+    border-bottom: 6px solid #68a53d;
+}
+
+.color5{
+    border-bottom: 6px solid #66a34f;
+}
+
+.color6{
+    border-bottom: 6px solid #577c3d;
+}
+     
+p{
+    font-family: Roboto;
+    font-size: 1em;
+}
+
+@media only screen and (max-width: 900px) {
+    .hide_small{
+        display: none;
+    }
+}
+
+.bottom{
+    margin-top: -10%;
+}
+@media only screen and (max-width: 1250px) {
+    .bottom{
+        margin-top: 10%;        
+    }
+}
+
+
+#locust{
+    width: 100%;
+    margin-top: -10%;
+    margin-left: 20%;
+}
+@media only screen and (max-width: 1150px) {
+    #locust{
+        width: 150%;
+        margin-top: 90%;
+        margin-left: -50%;
+        
+    }
+}
+
+
+#branch1{
+    width: 150%;
+    margin-top: -10%;
+    margin-left: 25%;
+    transform: scaleX(-1);
+}
+@media only screen and (max-width: 1150px) {
+    #branch1{
+        width: 185%;
+        margin-top: 75%;
+        margin-left: -9%;
+        
+    }
+}
+
+
+#dragonfly{
+    width: 140%;
+    margin-top: -30%;
+    margin-left: -50%;
+    transform: rotate(160deg)
+}
+@media only screen and (max-width: 1150px) {
+    #dragonfly{
+        width: 185%;
+        margin-top: 40%;
+        margin-left: -60%;
+        transform: rotate(160deg)
+        
+    }
+}
+
+
+#fly{
+    width: 120%;
+    margin-top: 10%;
+    margin-left: 10%;
+    transform: rotate(30deg)
+}
+@media only screen and (max-width: 1250px) {
+    #fly{
+        width: 150%;
+        margin-top: 80%;
+        margin-left: -10%;
+        
+        
+    }
+}
+
+#branch2{
+    width: 205%;
+    margin-top: 15%;
+    margin-left: -62%;
+    transform: rotate(45deg) scale(-1, 1);
+    
+}
+@media only screen and (max-width: 1150px) {
+    #branch2{
+        width: 270%;
+        margin-top: 75%;
+        margin-left: -60%;
+        
+    }
+}
+
+
+#butterfly{
+    width: 120%;
+    margin-top: 10%;
+    margin-left: -20%;
+    transform: scale(-1, 1) rotate(45deg)
+}
+@media only screen and (max-width: 1150px) {
+    #butterfly{
+        width: 120%;
+        margin-top: 10%;
+        margin-left: 5%;
+        
+        
+    }
+}
