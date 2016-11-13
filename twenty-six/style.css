@@ -121,6 +121,31 @@ h1{
     }
 }
 
+body > h1{
+    margin-bottom: 0;
+    padding-right: 0;
+    font-family: Roboto Condensed;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 3.0em;
+    border: none;
+    text-align: center;
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px; /* margin is -0.5 * dimension */
+    margin-top: -35px;
+}
+@media only screen and (max-width: 900px) {
+    body > h1{
+        font-size: 2.0em;
+        border: none;
+        
+    }
+}
+
     
 h2{
     font-family: Roboto Condensed;
@@ -170,11 +195,11 @@ p{
 }
 
 .bottom{
-    margin-top: -10%;
+    margin-top: -50px;
 }
 @media only screen and (max-width: 1250px) {
     .bottom{
-        margin-top: 10%;        
+        margin-top: 50px;        
     }
 }
 
